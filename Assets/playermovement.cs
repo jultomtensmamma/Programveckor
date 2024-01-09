@@ -14,9 +14,12 @@ public class playermovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+  private void Update()
     {
-        
+       if(Input.GetKeyDown(KeyCode.Space))
+        {
+            myRigidbody.AddForce(new Vector3(0, 10, 0), ForceMode2D.Impulse);
+        }
     }
 
     void FixedUpdate()
