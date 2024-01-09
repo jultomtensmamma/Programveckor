@@ -26,12 +26,12 @@ public class playermovement : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.RightArrow))
         {
-            myRigidbody.AddForce(new Vector3(20, 0, 0));
+            myRigidbody.AddForce(new Vector3(10, 0, 0));
 
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            myRigidbody.AddForce(new Vector3(-20, 0, 0));
+            myRigidbody.AddForce(new Vector3(-10, 0, 0));
         }
 
 
