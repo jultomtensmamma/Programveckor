@@ -258,6 +258,7 @@ GameObject:
   - component: {fileID: 206807369}
   - component: {fileID: 206807368}
   - component: {fileID: 206807371}
+  - component: {fileID: 206807372}
   m_Layer: 0
   m_Name: Enemy5
   m_TagString: Untagged
@@ -371,6 +372,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848398cc55a98b549ac6bf962536c76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &206807372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206807367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab19a0df4d2825f4c8afd211a5f8edda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy1: {fileID: 0}
+  Enemy2: {fileID: 0}
+  Enemy3: {fileID: 0}
+  Enemy4: {fileID: 0}
+  Enemy5: {fileID: 0}
+  Enemy6: {fileID: 0}
+  Enemy7: {fileID: 0}
+  Enemy8: {fileID: 0}
 --- !u!1 &355904719
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,6 +642,7 @@ GameObject:
   - component: {fileID: 765360136}
   - component: {fileID: 765360138}
   - component: {fileID: 765360139}
+  - component: {fileID: 765360140}
   m_Layer: 0
   m_Name: Enemy3
   m_TagString: Untagged
@@ -734,6 +756,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848398cc55a98b549ac6bf962536c76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &765360140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765360135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab19a0df4d2825f4c8afd211a5f8edda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy1: {fileID: 0}
+  Enemy2: {fileID: 0}
+  Enemy3: {fileID: 0}
+  Enemy4: {fileID: 0}
+  Enemy5: {fileID: 0}
+  Enemy6: {fileID: 0}
+  Enemy7: {fileID: 0}
+  Enemy8: {fileID: 0}
 --- !u!1 &771713451
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,6 +788,7 @@ GameObject:
   - component: {fileID: 771713453}
   - component: {fileID: 771713452}
   - component: {fileID: 771713455}
+  - component: {fileID: 771713456}
   m_Layer: 0
   m_Name: Enemy7
   m_TagString: Untagged
@@ -859,6 +902,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848398cc55a98b549ac6bf962536c76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &771713456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771713451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab19a0df4d2825f4c8afd211a5f8edda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy1: {fileID: 0}
+  Enemy2: {fileID: 0}
+  Enemy3: {fileID: 0}
+  Enemy4: {fileID: 0}
+  Enemy5: {fileID: 0}
+  Enemy6: {fileID: 0}
+  Enemy7: {fileID: 0}
+  Enemy8: {fileID: 0}
 --- !u!1 &842058149
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,7 +934,6 @@ GameObject:
   - component: {fileID: 842058152}
   - component: {fileID: 842058151}
   - component: {fileID: 842058153}
-  - component: {fileID: 842058154}
   m_Layer: 5
   m_Name: monolog3
   m_TagString: Untagged
@@ -920,7 +982,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Oh no! It started to rain"
 
-    Press X to continue'
+    Press W to continue'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1024,22 +1086,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &842058154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842058149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3341b3d130d873943bc22034e2f113a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Monolog1: {fileID: 0}
-  Monolog2: {fileID: 0}
-  Monolog3: {fileID: 0}
-  Monolog4: {fileID: 0}
 --- !u!1 &884698718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +1097,6 @@ GameObject:
   - component: {fileID: 884698719}
   - component: {fileID: 884698721}
   - component: {fileID: 884698720}
-  - component: {fileID: 884698722}
   - component: {fileID: 884698723}
   m_Layer: 5
   m_Name: monolog1
@@ -1101,7 +1146,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"Oh what a wonderful day!"
 
-    Press X to continue'
+    Press W to continue'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1178,22 +1223,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884698718}
   m_CullTransparentMesh: 1
---- !u!114 &884698722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 884698718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3341b3d130d873943bc22034e2f113a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Monolog1: {fileID: 0}
-  Monolog2: {fileID: 0}
-  Monolog3: {fileID: 0}
-  Monolog4: {fileID: 0}
 --- !u!54 &884698723
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1234,6 +1263,7 @@ GameObject:
   - component: {fileID: 941371625}
   - component: {fileID: 941371629}
   - component: {fileID: 941371628}
+  - component: {fileID: 941371630}
   m_Layer: 0
   m_Name: Enemy4
   m_TagString: Untagged
@@ -1359,6 +1389,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848398cc55a98b549ac6bf962536c76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &941371630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941371624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab19a0df4d2825f4c8afd211a5f8edda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy1: {fileID: 0}
+  Enemy2: {fileID: 0}
+  Enemy3: {fileID: 0}
+  Enemy4: {fileID: 0}
+  Enemy5: {fileID: 0}
+  Enemy6: {fileID: 0}
+  Enemy7: {fileID: 0}
+  Enemy8: {fileID: 0}
 --- !u!1 &1000920950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,6 +1421,7 @@ GameObject:
   - component: {fileID: 1000920952}
   - component: {fileID: 1000920951}
   - component: {fileID: 1000920954}
+  - component: {fileID: 1000920955}
   m_Layer: 0
   m_Name: Enemy6
   m_TagString: Untagged
@@ -1484,6 +1535,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848398cc55a98b549ac6bf962536c76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1000920955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000920950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab19a0df4d2825f4c8afd211a5f8edda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy1: {fileID: 0}
+  Enemy2: {fileID: 0}
+  Enemy3: {fileID: 0}
+  Enemy4: {fileID: 0}
+  Enemy5: {fileID: 0}
+  Enemy6: {fileID: 0}
+  Enemy7: {fileID: 0}
+  Enemy8: {fileID: 0}
 --- !u!1 &1008802638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,6 +1567,7 @@ GameObject:
   - component: {fileID: 1008802640}
   - component: {fileID: 1008802639}
   - component: {fileID: 1008802642}
+  - component: {fileID: 1008802643}
   m_Layer: 0
   m_Name: Enemy8
   m_TagString: Untagged
@@ -1609,6 +1681,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848398cc55a98b549ac6bf962536c76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1008802643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008802638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab19a0df4d2825f4c8afd211a5f8edda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy1: {fileID: 0}
+  Enemy2: {fileID: 0}
+  Enemy3: {fileID: 0}
+  Enemy4: {fileID: 0}
+  Enemy5: {fileID: 0}
+  Enemy6: {fileID: 0}
+  Enemy7: {fileID: 0}
+  Enemy8: {fileID: 0}
 --- !u!1 &1105574355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1837,7 +1929,6 @@ GameObject:
   - component: {fileID: 1463280516}
   - component: {fileID: 1463280515}
   - component: {fileID: 1463280517}
-  - component: {fileID: 1463280518}
   m_Layer: 5
   m_Name: monolog4
   m_TagString: Untagged
@@ -1886,7 +1977,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"What are u waiting fore? Quickly find a shelter"
 
-    Press W to continue'
+    Press X to continue'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1990,22 +2081,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1463280518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463280513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3341b3d130d873943bc22034e2f113a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Monolog1: {fileID: 0}
-  Monolog2: {fileID: 0}
-  Monolog3: {fileID: 0}
-  Monolog4: {fileID: 0}
 --- !u!1 &1535320534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,7 +2093,6 @@ GameObject:
   - component: {fileID: 1535320537}
   - component: {fileID: 1535320536}
   - component: {fileID: 1535320538}
-  - component: {fileID: 1535320539}
   m_Layer: 5
   m_Name: monolog2
   m_TagString: Untagged
@@ -2067,7 +2141,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: '"This is such a huge forest"
 
-    Press X to continue'
+    Press W to continue'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2171,22 +2245,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1535320539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535320534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3341b3d130d873943bc22034e2f113a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Monolog1: {fileID: 0}
-  Monolog2: {fileID: 0}
-  Monolog3: {fileID: 0}
-  Monolog4: {fileID: 0}
 --- !u!1 &2024132651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2309,6 +2367,7 @@ GameObject:
   - component: {fileID: 2121153629}
   - component: {fileID: 2121153631}
   - component: {fileID: 2121153632}
+  - component: {fileID: 2121153633}
   m_Layer: 0
   m_Name: Enemy2
   m_TagString: Untagged
@@ -2422,6 +2481,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848398cc55a98b549ac6bf962536c76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2121153633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121153628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab19a0df4d2825f4c8afd211a5f8edda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy1: {fileID: 0}
+  Enemy2: {fileID: 0}
+  Enemy3: {fileID: 0}
+  Enemy4: {fileID: 0}
+  Enemy5: {fileID: 0}
+  Enemy6: {fileID: 0}
+  Enemy7: {fileID: 0}
+  Enemy8: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

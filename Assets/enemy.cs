@@ -34,56 +34,56 @@ public class enemy : MonoBehaviour
     public void Update()
     {
         timer += Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             GameObject Enemy1GameObject = Instantiate(Enemy1, transform.position + new Vector3(300, 300, 0), Quaternion.identity);
             enemymovement bulletComponent = Enemy1GameObject.GetComponent<enemymovement>();
             bulletComponent.Fire(new Vector3(10, 0, 0));
            
         }
-        if (Input.GetKeyDown(KeyCode.W)&& timer > 1)
+        if (Input.GetKeyDown(KeyCode.X)&& timer > 1)
         {
             GameObject Enemy2GameObject = Instantiate(Enemy2, transform.position + new Vector3(300, 300, 0), Quaternion.identity);
             enemymovement bulletComponent = Enemy2GameObject.GetComponent<enemymovement>();
             bulletComponent.Fire(new Vector3(10, 0, 0));
 
         }
-        if (Input.GetKeyDown(KeyCode.W) && timer > 2)
+        if (Input.GetKeyDown(KeyCode.X) && timer > 2)
         {
             GameObject Enemy3GameObject = Instantiate(Enemy3, transform.position + new Vector3(300, 300, 0), Quaternion.identity);
             enemymovement bulletComponent = Enemy3GameObject.GetComponent<enemymovement>();
             bulletComponent.Fire(new Vector3(10, 0, 0));
 
         }
-        if (Input.GetKeyDown(KeyCode.W) && timer > 3)
+        if (Input.GetKeyDown(KeyCode.X) && timer > 3)
         {
             GameObject Enemy4GameObject = Instantiate(Enemy1, transform.position + new Vector3(300, 300, 0), Quaternion.identity);
             enemymovement bulletComponent = Enemy4GameObject.GetComponent<enemymovement>();
             bulletComponent.Fire(new Vector3(10, 0, 0));
 
         }
-        if (Input.GetKeyDown(KeyCode.W) && timer > 4)
+        if (Input.GetKeyDown(KeyCode.X) && timer > 4)
         {
             GameObject Enemy5GameObject = Instantiate(Enemy2, transform.position + new Vector3(300, 300, 0), Quaternion.identity);
             enemymovement bulletComponent = Enemy5GameObject.GetComponent<enemymovement>();
             bulletComponent.Fire(new Vector3(10, 0, 0));
 
         }
-        if (Input.GetKeyDown(KeyCode.W) && timer > 5)
+        if (Input.GetKeyDown(KeyCode.X) && timer > 5)
         {
             GameObject Enemy6GameObject = Instantiate(Enemy3, transform.position + new Vector3(300, 300, 0), Quaternion.identity);
             enemymovement bulletComponent = Enemy6GameObject.GetComponent<enemymovement>();
             bulletComponent.Fire(new Vector3(10, 0, 0));
 
         }
-        if (Input.GetKeyDown(KeyCode.W) && timer > 6)
+        if (Input.GetKeyDown(KeyCode.X) && timer > 6)
         {
             GameObject Enemy7GameObject = Instantiate(Enemy2, transform.position + new Vector3(300, 300, 0), Quaternion.identity);
             enemymovement bulletComponent = Enemy7GameObject.GetComponent<enemymovement>();
             bulletComponent.Fire(new Vector3(10, 0, 0));
 
         }
-        if (Input.GetKeyDown(KeyCode.W) && timer > 7)
+        if (Input.GetKeyDown(KeyCode.X) && timer > 7)
         {
             GameObject Enemy8GameObject = Instantiate(Enemy3, transform.position + new Vector3(300, 300, 0), Quaternion.identity);
             enemymovement bulletComponent = Enemy8GameObject.GetComponent<enemymovement>();

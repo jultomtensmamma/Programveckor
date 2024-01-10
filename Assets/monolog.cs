@@ -49,7 +49,7 @@ public class monolog : MonoBehaviour
             Monolog4.SetActive(true);
             number += 1;
         }
-        else if (Input.GetKeyDown(KeyCode.W) && number == 4)
+        else if (Input.GetKeyDown(KeyCode.X) && number == 4)
         {
             Monolog4.SetActive(false);
            
