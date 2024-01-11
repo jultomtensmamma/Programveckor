@@ -19,7 +19,7 @@ public class playermovement : MonoBehaviour
     {
        if(Input.GetKeyDown(KeyCode.Space))
        {
-            myRigidbody.AddForce(new Vector3(0, 10, 0), ForceMode2D.Impulse);
+            myRigidbody.AddForce(new Vector3(0, 5, 0), ForceMode2D.Impulse);
        }
     }
 
