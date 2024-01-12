@@ -45,16 +45,16 @@ public class rain : MonoBehaviour
                 continue;
             }
                 
-                Instantiate(rain1, transform.position + new Vector3(-7, 3, 0), Quaternion.identity);
-                Instantiate(rain2, transform.position + new Vector3(-5, 2, 0), Quaternion.identity);
-                Instantiate(rain3, transform.position + new Vector3(-3, 3, 0), Quaternion.identity);
-                Instantiate(rain4, transform.position + new Vector3(-1, 2, 0), Quaternion.identity);
-                Instantiate(rain5, transform.position + new Vector3(1, 3, 0), Quaternion.identity);
-                Instantiate(rain6, transform.position + new Vector3(3, 2, 0), Quaternion.identity);
-                Instantiate(rain7, transform.position + new Vector3(5, 3, 0), Quaternion.identity);
-                Instantiate(rain8, transform.position + new Vector3(7, 2, 0), Quaternion.identity);
-                Instantiate(rain9, transform.position + new Vector3(9, 3, 0), Quaternion.identity);
-                Instantiate(rain10, transform.position + new Vector3(11, 2, 0), Quaternion.identity);
+                Instantiate(rain1, transform.position + new Vector3(-7, 5, 0), Quaternion.identity);
+                Instantiate(rain2, transform.position + new Vector3(-5, 3, 0), Quaternion.identity);
+                Instantiate(rain3, transform.position + new Vector3(-3, 5, 0), Quaternion.identity);
+                Instantiate(rain4, transform.position + new Vector3(-1, 3, 0), Quaternion.identity);
+                Instantiate(rain5, transform.position + new Vector3(1, 5, 0), Quaternion.identity);
+                Instantiate(rain6, transform.position + new Vector3(3, 3, 0), Quaternion.identity);
+                Instantiate(rain7, transform.position + new Vector3(5, 5, 0), Quaternion.identity);
+                Instantiate(rain8, transform.position + new Vector3(7, 3, 0), Quaternion.identity);
+                Instantiate(rain9, transform.position + new Vector3(9, 5, 0), Quaternion.identity);
+                Instantiate(rain10, transform.position + new Vector3(11, 3, 0), Quaternion.identity);
 
             
             
