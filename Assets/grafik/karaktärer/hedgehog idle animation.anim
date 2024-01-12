@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: deer animation
+  m_Name: hedgehog idle animation
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -2073584844, guid: c9645cf230f8ef948a594854162e25ab, type: 3}
+      value: {fileID: 1664743633, guid: ca05e6f6592f0ad4cbf61ebd0b67afd3, type: 3}
     - time: 0.083333336
-      value: {fileID: 740850121, guid: c9645cf230f8ef948a594854162e25ab, type: 3}
+      value: {fileID: -515528619, guid: ca05e6f6592f0ad4cbf61ebd0b67afd3, type: 3}
     - time: 0.16666667
-      value: {fileID: -1880786779, guid: c9645cf230f8ef948a594854162e25ab, type: 3}
+      value: {fileID: -557234567, guid: ca05e6f6592f0ad4cbf61ebd0b67afd3, type: 3}
     - time: 0.25
-      value: {fileID: 1821743144, guid: c9645cf230f8ef948a594854162e25ab, type: 3}
+      value: {fileID: -744393669, guid: ca05e6f6592f0ad4cbf61ebd0b67afd3, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,10 +50,10 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -2073584844, guid: c9645cf230f8ef948a594854162e25ab, type: 3}
-    - {fileID: 740850121, guid: c9645cf230f8ef948a594854162e25ab, type: 3}
-    - {fileID: -1880786779, guid: c9645cf230f8ef948a594854162e25ab, type: 3}
-    - {fileID: 1821743144, guid: c9645cf230f8ef948a594854162e25ab, type: 3}
+    - {fileID: 1664743633, guid: ca05e6f6592f0ad4cbf61ebd0b67afd3, type: 3}
+    - {fileID: -515528619, guid: ca05e6f6592f0ad4cbf61ebd0b67afd3, type: 3}
+    - {fileID: -557234567, guid: ca05e6f6592f0ad4cbf61ebd0b67afd3, type: 3}
+    - {fileID: -744393669, guid: ca05e6f6592f0ad4cbf61ebd0b67afd3, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

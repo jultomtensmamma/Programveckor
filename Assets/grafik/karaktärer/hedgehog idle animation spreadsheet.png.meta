@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3ec9d3dbe765c3b4d9875aa9ad8db02d
+guid: ca05e6f6592f0ad4cbf61ebd0b67afd3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -39,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -63,25 +63,12 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 2
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -98,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,7 +98,20 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: deer idle animation spreadsheet_0
+      name: hedgehog idle animation spreadsheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c23d16fe96d3f14fa33fb39d00916bd
-      internalID: -1217587822
+      spriteID: 170a8b073a6e74d4386868d209295270
+      internalID: 1664743633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer idle animation spreadsheet_1
+      name: hedgehog idle animation spreadsheet_1
       rect:
         serializedVersion: 2
         x: 130
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe5c6bd84e85bdd4abbe275acc86f433
-      internalID: -1237934239
+      spriteID: 748a2e4ef1b6e6f4ab5608f8366855b6
+      internalID: -515528619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer idle animation spreadsheet_2
+      name: hedgehog idle animation spreadsheet_2
       rect:
         serializedVersion: 2
         x: 260
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daa91b655487c424286691a8a73c2639
-      internalID: 383655932
+      spriteID: 0104028790e08c24295009ab2d413492
+      internalID: -557234567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer idle animation spreadsheet_3
+      name: hedgehog idle animation spreadsheet_3
       rect:
         serializedVersion: 2
         x: 390
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdf61991932062f4fb68f3f6944a2a3d
-      internalID: 1841262420
+      spriteID: 4cf91f280f4f5ce4f9ef859f41f83218
+      internalID: -744393669
       vertices: []
       indices: 
       edges: []
@@ -217,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      deer idle animation spreadsheet_0: -1217587822
-      deer idle animation spreadsheet_1: -1237934239
-      deer idle animation spreadsheet_2: 383655932
-      deer idle animation spreadsheet_3: 1841262420
+      hedgehog idle animation spreadsheet_0: 1664743633
+      hedgehog idle animation spreadsheet_1: -515528619
+      hedgehog idle animation spreadsheet_2: -557234567
+      hedgehog idle animation spreadsheet_3: -744393669
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
