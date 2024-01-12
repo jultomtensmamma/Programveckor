@@ -331,7 +331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12, y: 1.3256}
+  m_AnchoredPosition: {x: 0.0000042915, y: 0.0000027418}
   m_SizeDelta: {x: 354.9, y: 110.5032}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &651646223
@@ -354,11 +354,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\rOh what a wonderful day! \n                         \n                        
-    (Left click)"
+  m_text: "\n\rOh what a wonderful day! \n                          (Left click)"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 61971d9e8e0aa024eb995ec12743f13d, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 61971d9e8e0aa024eb995ec12743f13d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c07d8e51ff62721428120750d1ea922a, type: 2}
+  m_sharedMaterial: {fileID: 7480140351910446657, guid: c07d8e51ff62721428120750d1ea922a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -382,13 +381,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 33
+  m_fontStyle: 9
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -847,8 +846,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -204.33179, y: -153.0941}
-  m_SizeDelta: {x: -434.6213, y: -336.816}
+  m_AnchoredPosition: {x: -196.88559, y: -159.12198}
+  m_SizeDelta: {x: -419.7289, y: -324.7603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1914993030
 MonoBehaviour:
