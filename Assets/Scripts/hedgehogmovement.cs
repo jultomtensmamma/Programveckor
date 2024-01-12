@@ -10,7 +10,6 @@ public class hedgehogmovement : MonoBehaviour
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
-        transform.position = new Vector3(0, -28, 0);
     }
 
     // Update is called once per frame
@@ -18,6 +17,7 @@ public class hedgehogmovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            print("hopp");
             myRigidbody.AddForce(new Vector3(0, 5, 0), ForceMode2D.Impulse);
         }
     }
@@ -27,11 +27,12 @@ public class hedgehogmovement : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             myRigidbody.AddForce(new Vector3(6, 0, 0));
-
+            print("höger");
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             myRigidbody.AddForce(new Vector3(-6, 0, 0));
+            print("vänster");
         }
     }
 }
