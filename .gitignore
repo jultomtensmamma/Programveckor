@@ -70,3 +70,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/textscript.cs.meta
+Assets/textscript.cs
+Assets/grafik/karaktärer/deer idle animation spreadsheet.png.meta
+Assets/grafik/karaktärer.meta
+Assets/grafik.meta
+Assets/enemymovement.cs
+Assets/enemymovement.cs.meta
+Assets/textscript.cs.meta
