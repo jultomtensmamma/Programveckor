@@ -291,7 +291,7 @@ Transform:
   m_GameObject: {fileID: 405446177}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.09, y: -26.63, z: 0}
+  m_LocalPosition: {x: -2.39, y: -26.63, z: 0}
   m_LocalScale: {x: 9.0157, y: 9.0157, z: 9.0157}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -447,6 +447,7 @@ GameObject:
   - component: {fileID: 1010152516}
   - component: {fileID: 1010152515}
   - component: {fileID: 1010152514}
+  - component: {fileID: 1010152520}
   m_Layer: 0
   m_Name: deer sprite walking spreadsheet_0
   m_TagString: Untagged
@@ -463,7 +464,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1010152513}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2506151547d51e1478b9983ed39d7384, type: 3}
+  m_Script: {fileID: 11500000, guid: 4087958219e1ac44eaceaedd47016cc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1010152515
@@ -620,12 +621,25 @@ Transform:
   m_GameObject: {fileID: 1010152513}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.07, y: -25.56, z: 0}
+  m_LocalPosition: {x: 8.07, y: -25.56, z: 8.07}
   m_LocalScale: {x: 14, y: 14, z: 14}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1010152520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010152513}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76e19f02fedd4741a550287c0b19a78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1010152513}
 --- !u!1 &1264785920
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,7 +743,7 @@ Transform:
   m_GameObject: {fileID: 1264785920}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6664, y: -26.19, z: 0}
+  m_LocalPosition: {x: -4.88, y: -26.19, z: 0}
   m_LocalScale: {x: 8.6118, y: 8.6118, z: 8.6118}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -742,7 +756,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264785920}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09e592a99c408294cbc5e2d92920f04f, type: 3}
   m_Name: 
