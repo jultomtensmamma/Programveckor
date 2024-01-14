@@ -7,6 +7,15 @@ public class ItemHolder : MonoBehaviour
 {
     private List<Item.ItemType> itemList;
 
+    public ItemHolder()
+    {
+        itemList = new List<Item.ItemType>();
+    }
+
+    public List<Item.ItemType> GetItemList()
+    {
+        return itemList;
+    }
     private void Awake() {
 
         itemList = new List<Item.ItemType>();
@@ -19,10 +28,12 @@ public class ItemHolder : MonoBehaviour
     public void RemoveItem(Item.ItemType itemType){
         itemList.Remove(itemType);
     }
-    public bool ContainsItem(Item.ItemType itemType){
+    public bool ContainsItem(Item.ItemType itemType)
+    {
 
         return itemList.Contains(itemType);
     }
+   
     private void OnTriggerEnter2D(Collider2D collider){
         Item item = collider.GetComponent<Item>();
         if(item != null){
