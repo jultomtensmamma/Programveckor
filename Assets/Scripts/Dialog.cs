@@ -2,76 +2,57 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
-public class NewBehaviourScript : MonoBehaviour
+public class Dialog : MonoBehaviour
 {
-    public TextMeshProUGUI textComponent;
-    public string[] lines;
-    public float textSpeed;
-
+    public TextMeshProUGUI textDisplay;
+    public string[] sentences;
     private int index;
+    public float typingSpeed;
 
+    public GameObject continueButton;
 
-
-    void start()
+    void Start()
     {
-        textComponent.text = string.Empty;
-        StartNewBehaviourScript();
-
+        StartCoroutine(Type());
     }
 
-    void Update()
+    private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(textDisplay.text == sentences[index])
         {
-            if (textComponent.text == lines[index])
-            {
-                Nextline();
-            }
-            else
-            {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
-            }
-
+            continueButton.SetActive(true);
         }
-
     }
-
-
-    void StartNewBehaviourScript()
+    IEnumerator Type()
     {
-        index = 0;
-        StartCoroutine(TypeLine());
-    }
-
-    IEnumerator TypeLine()
-    {
-
-
-        foreach (char c in lines[index].ToCharArray())
+        foreach (char letter in sentences[index].ToCharArray())
         {
-
-            textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
+            textDisplay.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
 
         }
     }
 
-    void Nextline()
+    public void NextSentence()
     {
-        if (index < lines.Length - 1)
+        continueButton.SetActive(false);
+        
+        if(index < sentences.Length - 1)
         {
             index++;
-            textComponent.text = string.Empty;
-            StartCoroutine(TypeLine());
-
+            textDisplay.text = "";
+            StartCoroutine(Type());
         }
         else
-        {
-            gameObject.SetActive(false);
+        { 
+         textDisplay.text = "";
+         continueButton.SetActive(false);
         }
-
     }
-
 }
+    
+    
+    
+    
+    
+   
