@@ -1437,7 +1437,7 @@ MonoBehaviour:
   - 'Deer: This is such a huge forest.'
   - 'Deer: Oh no! It started to rain.'
   - 'Deer: What are you waiting for? Quickly find a shelter.  '
-  typingSpeed: 0
+  typingSpeed: 0.02
   continueButton: {fileID: 1594155332}
 --- !u!4 &2038207755
 Transform:
