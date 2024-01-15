@@ -9,11 +9,5 @@ public class ItemAssets : MonoBehaviour
     private void Awake() {
         Instance = this;
     }
-        
-            public Sprite RedKey;
-            public Sprite BlueKey;
-            public Sprite GreenKey;
-            public Sprite Berries;
-        
-    }
+ 
 }

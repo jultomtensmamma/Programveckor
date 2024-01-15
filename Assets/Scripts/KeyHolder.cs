@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class KeyHolder : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public bool KeySetFalse()
+    public bool hasKey;
+    void Start()
     {
-        bool has GreenKey;
-        bool has RedKey;
-        bool has BlueKey
+        bool hasGreenKey;
+        bool hasRedKey;
+        bool hasBlueKey;
     }
 
     // Update is called once per frame

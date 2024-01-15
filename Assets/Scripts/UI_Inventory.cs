@@ -20,23 +20,6 @@ public class UI_Inventory : MonoBehaviour
 
     }
     //Vart Item Ikonen dyker upp
-    private void RefreshItemHolderItems(){
-        int X = 0;
-        int y = 0;
-        float itemSlotCellsize = 30f;
-        foreach (Item.ItemType item in itemHolder.GetItemList()){
-
-           RectTransform itemSlotRectTransform = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();
-           itemSlotRectTransform.gameObject.SetActive(true);
-            itemSlotRectTransform.anchoredPosition = new Vector2(X * itemSlotCellsize, y * itemSlotCellsize);
-            Image image = itemSlotRectTransform.Find("image").GetComponent<Image>();
-            image.sprite = item.GetSprite();
-            X++;
-            if (X > 4){
-                X = 0;
-                y++;
-            }
-        }
-    }
+    
 }
 
