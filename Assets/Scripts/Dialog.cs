@@ -18,7 +18,7 @@ public class Dialog : MonoBehaviour
 
     private void Update()
     {
-        if(textDisplay.text == sentences[index])
+        if (textDisplay.text == sentences[index]) ;
         {
             continueButton.SetActive(true);
         }
