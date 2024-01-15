@@ -1417,7 +1417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 516681a8a4d658442afd4f639434cde2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textDisplay: {fileID: 0}
+  textDisplay: {fileID: 651646223}
   sentences: []
   typingSpeed: 0
   continueButton: {fileID: 0}
