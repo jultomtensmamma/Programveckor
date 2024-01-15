@@ -18,7 +18,7 @@ public class Dialog : MonoBehaviour
         CloseDialogueBox();
     }
 
-    private void Update()
+    public void Update()
     {
         if (textDisplay.text == sentences[index]) 
         {
