@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 public class Dialog : MonoBehaviour
 {
+    private GameObject dialogueBox;
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
     private int index;
@@ -14,15 +15,18 @@ public class Dialog : MonoBehaviour
     void Start()
     {
         StartCoroutine(Type());
+        CloseDialogueBox();
     }
 
     private void Update()
     {
-        if (textDisplay.text == sentences[index]) ;
+        if (textDisplay.text == sentences[index]) 
         {
             continueButton.SetActive(true);
         }
     }
+
+    // Vänta några sekunder innan man trycker på continue
     IEnumerator Type()
     {
         foreach (char letter in sentences[index].ToCharArray())
@@ -31,8 +35,11 @@ public class Dialog : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
 
         }
+
+        CloseDialogueBox();
     }
 
+    // continue button trycka och gå till nästa dialog
     public void NextSentence()
     {
         continueButton.SetActive(false);
@@ -48,6 +55,12 @@ public class Dialog : MonoBehaviour
          textDisplay.text = "";
          continueButton.SetActive(false);
         }
+    }
+
+    private void CloseDialogueBox()
+    {
+        dialogueBox.SetActive(false);
+        textDisplay.text = string.Empty;
     }
 }
     

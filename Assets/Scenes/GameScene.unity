@@ -1338,7 +1338,7 @@ GameObject:
   - component: {fileID: 1914993031}
   - component: {fileID: 1914993030}
   m_Layer: 5
-  m_Name: Dialogbox
+  m_Name: DialogueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
