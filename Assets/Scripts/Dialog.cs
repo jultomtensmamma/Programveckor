@@ -4,13 +4,15 @@ using UnityEngine;
 using TMPro;
 public class Dialog : MonoBehaviour
 {
-    private GameObject dialogueBox;
+    
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
     private int index;
     public float typingSpeed;
 
     public GameObject continueButton;
+
+    private GameObject dialogueBox;
 
     void Start()
     {
