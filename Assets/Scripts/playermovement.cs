@@ -6,14 +6,9 @@ public class playermovement : MonoBehaviour
 {
  
     Rigidbody2D myRigidbody;
-    [SerializeField] private UI_Inventory uiInventory;
-    [SerializeField] private ItemHolder itemHolder;
+   
     // Start is called before the first frame update
-    private void Awake()
-    {
-        itemHolder = new ItemHolder();
-        uiInventory.SetItemHolder(itemHolder);
-    }
+    
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
