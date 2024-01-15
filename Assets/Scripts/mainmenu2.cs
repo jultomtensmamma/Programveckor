@@ -9,16 +9,5 @@ public class mainmenu2 : MonoBehaviour
     {
         SceneManager.LoadScene("GameScene");
     }
-    // cred: Hampus
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
