@@ -1,45 +1,49 @@
-//HCS
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playermovement : MonoBehaviour
+public class playermovement : MonoBehaviour  
 {
+ 
     Rigidbody2D myRigidbody;
-    SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
-
+    [SerializeField] private UI_Inventory uiInventory;
+    [SerializeField] private ItemHolder itemHolder;
     // Start is called before the first frame update
+    private void Awake()
+    {
+        itemHolder = new ItemHolder();
+        uiInventory.SetItemHolder(itemHolder);
+    }
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>(); // Get the SpriteRenderer component
-        transform.position = new Vector3(0, -26, 0);
+
+        transform.position = new Vector3(0, 2, 0);
+
+       
+
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            myRigidbody.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
-        }
+       if(Input.GetKeyDown(KeyCode.Space))
+       {
+            myRigidbody.AddForce(new Vector3(0, 5, 0), ForceMode2D.Impulse);
+       }
     }
 
     void FixedUpdate()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
+        if(Input.GetKey(KeyCode.RightArrow))
+        {
+            myRigidbody.AddForce(new Vector3(6, 0, 0));
 
-        if (horizontalInput > 0)
-        {
-            myRigidbody.AddForce(new Vector2(6, 0));
-            // Flip the sprite to face right
-            spriteRenderer.flipX = false;
         }
-        else if (horizontalInput < 0)
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            myRigidbody.AddForce(new Vector2(-6, 0));
-            // Flip the sprite to face left
-            spriteRenderer.flipX = true;
+            myRigidbody.AddForce(new Vector3(-6, 0, 0));
         }
+
     }
 }
