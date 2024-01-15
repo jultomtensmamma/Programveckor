@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class playermovement : MonoBehaviour
+
+// Reference to the SpriteRenderer component
 {
     Rigidbody2D myRigidbody;
-    SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
+    SpriteRenderer spriteRenderer; 
 
     // Start is called before the first frame update
     void Start()
