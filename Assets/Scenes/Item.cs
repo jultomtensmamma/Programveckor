@@ -8,8 +8,11 @@ public class Item : MonoBehaviour{
         RedKey,
         GreenKey,
         BlueKey,
-        Berrys,
+        Berries,
     }
+   
+    
+    
     public ItemType GetItemType()
     {
 
