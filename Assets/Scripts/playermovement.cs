@@ -44,7 +44,18 @@ public class playermovement : MonoBehaviour
             // Flip the sprite to face left
             spriteRenderer.flipX = true;
         }
+        if (Input.GetKey("left"))
+        {
+            transform.position.x = transform.position.x - 0.1;
+            animation.Play("walking");
+        }
+
+        if (!Input.GetKey("left"))
+        {
+            animation.Play("idle");
+        }
     }
+
     
 }
 
