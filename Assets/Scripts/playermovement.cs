@@ -21,9 +21,9 @@ public class playermovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && myRigidbody.velocity.y == 0)
         {
-            myRigidbody.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
+            myRigidbody.AddForce(new Vector2(0, 10), ForceMode2D.Impulse);
         }
     }
     
@@ -34,13 +34,13 @@ public class playermovement : MonoBehaviour
 
         if (horizontalInput > 0)
         {
-            myRigidbody.AddForce(new Vector2(6, 0));
+            myRigidbody.AddForce(new Vector2(7, 0));
             // Flip the sprite to face right
             spriteRenderer.flipX = false;
         }
         else if (horizontalInput < 0)
         {
-            myRigidbody.AddForce(new Vector2(-6, 0));
+            myRigidbody.AddForce(new Vector2(-7, 0));
             // Flip the sprite to face left
             spriteRenderer.flipX = true;
         }
