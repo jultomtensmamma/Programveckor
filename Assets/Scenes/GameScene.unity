@@ -662,7 +662,7 @@ GameObject:
   - component: {fileID: 1010152515}
   - component: {fileID: 1010152520}
   - component: {fileID: 1010152521}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: deer sprite walking spreadsheet_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -869,7 +869,7 @@ GameObject:
   - component: {fileID: 1264785924}
   - component: {fileID: 1264785926}
   - component: {fileID: 1264785925}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: hedgehog walking animation spreadsheet_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -971,11 +971,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264785920}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09e592a99c408294cbc5e2d92920f04f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deer: {fileID: 1010152513}
 --- !u!61 &1264785925
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1459,7 +1460,7 @@ GameObject:
   - component: {fileID: 1911807574}
   - component: {fileID: 1911807573}
   - component: {fileID: 1911807572}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}

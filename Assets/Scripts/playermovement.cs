@@ -8,7 +8,7 @@ public class playermovement : MonoBehaviour
 // Reference to the SpriteRenderer component
 {
     Rigidbody2D myRigidbody;
-    SpriteRenderer spriteRenderer; 
+    SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +26,7 @@ public class playermovement : MonoBehaviour
             myRigidbody.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
         }
     }
+    
 
     void FixedUpdate()
     {
@@ -44,4 +45,6 @@ public class playermovement : MonoBehaviour
             spriteRenderer.flipX = true;
         }
     }
+    
 }
+

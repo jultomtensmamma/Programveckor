@@ -5,11 +5,15 @@ using UnityEngine;
 public class hedgehogmovement : MonoBehaviour
 {
     Rigidbody2D myRigidbody;
+    [SerializeField]
+    GameObject deer;
+    SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -24,15 +28,24 @@ public class hedgehogmovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
+
+        Vector2 direction = deer.transform.position - transform.position;
+        float horizontalInput = direction.x;
+        
+
+        if (horizontalInput > 0)
         {
-            myRigidbody.AddForce(new Vector3(6, 0, 0));
-            print("höger");
+            
+            // Flip the sprite to face right
+            spriteRenderer.flipX = true;
         }
-        if (Input.GetKey(KeyCode.LeftArrow))
+        else if (horizontalInput < 0)
         {
-            myRigidbody.AddForce(new Vector3(-6, 0, 0));
-            print("vänster");
+            
+            // Flip the sprite to face left
+            spriteRenderer.flipX = false;
         }
+        
+        myRigidbody.AddForce(direction);
     }
 }
