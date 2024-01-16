@@ -149,7 +149,11 @@ Transform:
   m_GameObject: {fileID: 61785984}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 88.9, y: -2.0607, z: 3.4957}
+<<<<<<< HEAD
+  m_LocalPosition: {x: 88.6, y: -2.0607, z: 3.4957}
+=======
+  m_LocalPosition: {x: 87.9, y: -2.0607, z: 3.4957}
+>>>>>>> cbc28a85b24f87b696a7330d1f007150edb3d8f6
   m_LocalScale: {x: 11.765035, y: 11.765035, z: 11.765035}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1654,6 +1658,7 @@ MonoBehaviour:
   - 'Deer: What are you waiting for? Quickly find a shelter.  '
   typingSpeed: 0.02
   continueButton: {fileID: 1594155332}
+  dialogueBox: {fileID: 1914993028}
 --- !u!4 &2038207755
 Transform:
   m_ObjectHideFlags: 0
@@ -1794,8 +1799,8 @@ Transform:
   m_GameObject: {fileID: 2136136550}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.6134, y: -32, z: 0}
-  m_LocalScale: {x: 134.68422, y: 1.4784081, z: 0.45324945}
+  m_LocalPosition: {x: 44.6134, y: -31.8, z: 0}
+  m_LocalScale: {x: 154.2, y: 4, z: 0.45324945}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
