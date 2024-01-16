@@ -9,10 +9,12 @@ public class playermovement : MonoBehaviour
 {
     Rigidbody2D myRigidbody;
     SpriteRenderer spriteRenderer;
+    Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>(); // Get the SpriteRenderer component
         transform.position = new Vector3(0, -26, 0);
@@ -44,15 +46,15 @@ public class playermovement : MonoBehaviour
             // Flip the sprite to face left
             spriteRenderer.flipX = true;
         }
-        if (Input.GetKey("left"))
+        if (horizontalInput > 0.01f || horizontalInput < -0.01f)
         {
-            transform.position.x = transform.position.x - 0.1;
-            animation.Play("walking");
-        }
-
-        if (!Input.GetKey("left"))
+            anim.SetBool("isWalking", true);
+           // transform.position += new Vector3(1, 0, 0); transform.position.x - 0.1;
+           // GetComponent<Animation>().Play("walking");
+        } else
         {
-            animation.Play("idle");
+            anim.SetBool("isWalking", false);
+            //  GetComponent<Animation>().Play("idle");
         }
     }
 
