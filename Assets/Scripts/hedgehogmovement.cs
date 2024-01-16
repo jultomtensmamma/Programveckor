@@ -7,11 +7,13 @@ public class hedgehogmovement : MonoBehaviour
     Rigidbody2D myRigidbody;
     [SerializeField]
     GameObject deer;
+    SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -26,8 +28,24 @@ public class hedgehogmovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
+
         Vector2 direction = deer.transform.position - transform.position;
+        float horizontalInput = direction.x;
+        
+
+        if (horizontalInput > 0)
+        {
+            
+            // Flip the sprite to face right
+            spriteRenderer.flipX = true;
+        }
+        else if (horizontalInput < 0)
+        {
+            
+            // Flip the sprite to face left
+            spriteRenderer.flipX = false;
+        }
+        
         myRigidbody.AddForce(direction);
     }
 }
