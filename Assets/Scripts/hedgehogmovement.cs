@@ -5,6 +5,8 @@ using UnityEngine;
 public class hedgehogmovement : MonoBehaviour
 {
     Rigidbody2D myRigidbody;
+    [SerializeField]
+    GameObject deer;
 
     // Start is called before the first frame update
     void Start()
@@ -24,15 +26,8 @@ public class hedgehogmovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            myRigidbody.AddForce(new Vector3(6, 0, 0));
-            print("höger");
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            myRigidbody.AddForce(new Vector3(-6, 0, 0));
-            print("vänster");
-        }
+        float horizontalInput = Input.GetAxis("Horizontal");
+        Vector2 direction = deer.transform.position - transform.position;
+        myRigidbody.AddForce(direction);
     }
 }
