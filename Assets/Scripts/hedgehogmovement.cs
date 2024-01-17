@@ -8,10 +8,12 @@ public class hedgehogmovement : MonoBehaviour
     [SerializeField]
     GameObject deer;
     SpriteRenderer spriteRenderer;
+    Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -45,7 +47,22 @@ public class hedgehogmovement : MonoBehaviour
             // Flip the sprite to face left
             spriteRenderer.flipX = false;
         }
-        
-        myRigidbody.AddForce(direction);
+        if (horizontalInput > 0 || horizontalInput < 0)
+         {
+            anim.SetBool("Iswalking", true);
+            // transform.position += new Vector3(1, 0, 0); transform.position.x - 0.1;
+            // GetComponent<Animation>().Play("walking");
+        }
+
+        else
+        {
+            anim.SetBool("Iswalking", false);
+            //  GetComponent<Animation>().Play("idle");
+        }
+        if (direction.magnitude > 5)
+        {
+            myRigidbody.AddForce(direction);
+        }
+       
     }
 }

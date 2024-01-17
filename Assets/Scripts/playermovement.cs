@@ -17,7 +17,7 @@ public class playermovement : MonoBehaviour
         anim = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>(); // Get the SpriteRenderer component
-        transform.position = new Vector3(0, -26, 0);
+        transform.position = new Vector3(0, 2, 0);
     }
 
     // Update is called once per frame
@@ -26,6 +26,7 @@ public class playermovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && myRigidbody.velocity.y == 0)
         {
             myRigidbody.AddForce(new Vector2(0, 10), ForceMode2D.Impulse);
+            anim.SetTrigger("Jump");
         }
     }
     
@@ -46,6 +47,7 @@ public class playermovement : MonoBehaviour
             // Flip the sprite to face left
             spriteRenderer.flipX = true;
         }
+       
         if (horizontalInput > 0.01f || horizontalInput < -0.01f)
         {
             anim.SetBool("isWalking", true);
