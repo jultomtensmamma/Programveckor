@@ -59,6 +59,10 @@ public class hedgehogmovement : MonoBehaviour
             anim.SetBool("Iswalking", false);
             //  GetComponent<Animation>().Play("idle");
         }
-        myRigidbody.AddForce(direction);
+        if (direction.magnitude > 5)
+        {
+            myRigidbody.AddForce(direction);
+        }
+       
     }
 }
