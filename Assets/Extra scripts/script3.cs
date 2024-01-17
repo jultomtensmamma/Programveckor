@@ -18,7 +18,7 @@ public class script3 : MonoBehaviour
     }
     public void Play()
     {
-        Instantiate(variable, transform.position + new Vector3(0, 0, 0), Quaternion.identity);// den här gör att man kan få en text att visas vid en knapptryckning
+        Instantiate(variable, transform.position + new Vector3(0, 0, 0), Quaternion.identity);// den här gör att man kan få en text att visas vid en knapptryckning. För att den ska fungera så behöver man skapa en knapp och lägga in skriptet i den knappen och välja funktionen "Play"
     }
 
 
