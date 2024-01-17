@@ -9,15 +9,13 @@ public class Dialog : MonoBehaviour
     public string[] sentences;
     private int index;
     public float typingSpeed;
-
     public GameObject continueButton;
-
-    private GameObject dialogueBox;
+    public GameObject dialogueBox;
 
     void Start()
     {
         StartCoroutine(Type());
-        CloseDialogueBox();
+        
     }
 
     public void Update()
@@ -38,7 +36,7 @@ public class Dialog : MonoBehaviour
 
         }
 
-        CloseDialogueBox();
+        
     }
 
     // continue button trycka och gå till nästa dialog
@@ -56,8 +54,12 @@ public class Dialog : MonoBehaviour
         { 
          textDisplay.text = "";
          continueButton.SetActive(false);
+         CloseDialogueBox();
         }
     }
+
+
+    //Dialogboxen ska bort
 
     private void CloseDialogueBox()
     {
