@@ -17,7 +17,7 @@ public class playermovement : MonoBehaviour
         anim = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>(); // Get the SpriteRenderer component
-        transform.position = new Vector3(0, 2, 0);
+       
     }
 
     // Update is called once per frame
