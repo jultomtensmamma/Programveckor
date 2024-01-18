@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Key : MonoBehaviour{
     [SerializeField] private KeyType keyType;
+    //lista av inventory saker
    public enum KeyType{
         Berries,
+        Berries2,
         Mushroom,
+        Mushroom2,
         basket,
 
     }
