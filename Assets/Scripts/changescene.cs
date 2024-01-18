@@ -1,9 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class changescene : MonoBehaviour
 {
+    public string scene;
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            SceneManager.LoadScene(scene);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -11,8 +20,5 @@ public class changescene : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
