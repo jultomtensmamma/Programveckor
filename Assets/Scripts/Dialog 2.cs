@@ -43,8 +43,6 @@ public class Dialog2 : MonoBehaviour
     // continue button trycka och gå till nästa dialog
     public void NextSentence()
     {
-        
-      
         continueButton.SetActive(false);
 
         if (index < sentences.Length - 1)
