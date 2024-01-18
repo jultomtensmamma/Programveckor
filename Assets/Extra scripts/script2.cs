@@ -11,7 +11,7 @@ public class script2 : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("Log");
         }
 
     }
