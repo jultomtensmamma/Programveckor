@@ -18,7 +18,7 @@ public class changeScene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.O))
         {
-            SceneManager.LoadScene(sceneIndex);
+            SceneManager.LoadScene("Log");
         }
     }
 }
