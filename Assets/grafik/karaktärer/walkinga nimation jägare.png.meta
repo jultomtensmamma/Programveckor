@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e7ada620dd8e9d54c8af8290cecf573c
+guid: dd6b531dd61a23348b82d447bc1d96ce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Animation regn Linnea spreadsheat_0
+      name: "walkinga nimation j\xE4gare_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1164
-        height: 625
+        x: 45
+        y: 157
+        width: 28
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39796559d1ee97c4bb88e44c56d93946
-      internalID: 1150515552
+      spriteID: 5d52d0dff035b96429a967b4734c90d7
+      internalID: -1573855885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animation regn Linnea spreadsheat_1
+      name: "walkinga nimation j\xE4gare_1"
       rect:
         serializedVersion: 2
-        x: 1164
-        y: 0
-        width: 1164
-        height: 625
+        x: 175
+        y: 159
+        width: 27
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4bbce288574565408c7b1826bda1a43
-      internalID: -1943646702
+      spriteID: 1250f5701f1eaa74db3e4cd9396014be
+      internalID: -2141673650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animation regn Linnea spreadsheat_2
+      name: "walkinga nimation j\xE4gare_2"
       rect:
         serializedVersion: 2
-        x: 2328
-        y: 0
-        width: 1164
-        height: 625
+        x: 311
+        y: 159
+        width: 19
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5003065ed7f7fd41b36223f6d71dc62
-      internalID: 310965471
+      spriteID: d9b8fc7196e51bd4da31be908bdaf8d3
+      internalID: -1816395423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Animation regn Linnea spreadsheat_3
+      name: "walkinga nimation j\xE4gare_3"
       rect:
         serializedVersion: 2
-        x: 3492
-        y: 0
-        width: 1164
-        height: 625
+        x: 47
+        y: 83
+        width: 26
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +200,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57ab223a51ef9a14eba16a8c6639f75d
-      internalID: 420244164
+      spriteID: f030addd4573d4044abf5b1d65712240
+      internalID: -1845130987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walkinga nimation j\xE4gare_4"
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 82
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3af8830b5f7ee40821ffeb8c656b74
+      internalID: -1024742772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walkinga nimation j\xE4gare_5"
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 81
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbea3013416dcec4abda8a804088f2dd
+      internalID: -1872231906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walkinga nimation j\xE4gare_6"
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 5
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045483ca194800b43b89923b8e9c6962
+      internalID: -396963778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walkinga nimation j\xE4gare_7"
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 5
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37878a2735362ca43a3d421d111ecab8
+      internalID: 182317882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "walkinga nimation j\xE4gare_8"
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 5
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49cee854df781a4faf97f023bc4833a
+      internalID: -58401405
       vertices: []
       indices: 
       edges: []
@@ -217,10 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Animation regn Linnea spreadsheat_0: 1150515552
-      Animation regn Linnea spreadsheat_1: -1943646702
-      Animation regn Linnea spreadsheat_2: 310965471
-      Animation regn Linnea spreadsheat_3: 420244164
+      "walkinga nimation j\xE4gare_0": -1573855885
+      "walkinga nimation j\xE4gare_1": -2141673650
+      "walkinga nimation j\xE4gare_2": -1816395423
+      "walkinga nimation j\xE4gare_3": -1845130987
+      "walkinga nimation j\xE4gare_4": -1024742772
+      "walkinga nimation j\xE4gare_5": -1872231906
+      "walkinga nimation j\xE4gare_6": -396963778
+      "walkinga nimation j\xE4gare_7": 182317882
+      "walkinga nimation j\xE4gare_8": -58401405
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

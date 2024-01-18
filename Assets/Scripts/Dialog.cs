@@ -11,6 +11,7 @@ public class Dialog : MonoBehaviour
     public float typingSpeed;
     public GameObject continueButton;
     public GameObject dialogueBox;
+    public GameObject rain;
 
     void Start()
     {
@@ -42,6 +43,10 @@ public class Dialog : MonoBehaviour
     // continue button trycka och gå till nästa dialog
     public void NextSentence()
     {
+        if (index == 1)
+        {
+            rain.SetActive(true);
+        }
         continueButton.SetActive(false);
         
         if(index < sentences.Length - 1)
