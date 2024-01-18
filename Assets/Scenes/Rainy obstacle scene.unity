@@ -1429,6 +1429,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 661621442}
+  - {fileID: 738934635}
   m_Father: {fileID: 778100018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &729085424
@@ -1515,15 +1516,15 @@ Transform:
   m_GameObject: {fileID: 738934634}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 133.9489, y: -14.693561, z: -11.710997}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -13.147108, y: 2.5198953, z: 9.5803795}
+  m_LocalScale: {x: 0.7717837, y: 0.7717837, z: 0.7717837}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 763988651}
   - {fileID: 1477189295}
   - {fileID: 901800641}
   - {fileID: 1323095487}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 729085423}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &758905353
 GameObject:
@@ -1770,7 +1771,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -12.25, y: -2.7}
@@ -2510,7 +2511,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -9.39, y: -3.11}
@@ -3017,7 +3018,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -3.63, y: -3.13}
@@ -3133,7 +3134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b610f2e67be4d124ca9e369627cb9654, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyType: 0
+  keyType: 1
 --- !u!58 &1453428800
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3284,7 +3285,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.75, y: -1.81}
@@ -4893,4 +4894,3 @@ SceneRoots:
   - {fileID: 1953360722}
   - {fileID: 19395859}
   - {fileID: 568690044}
-  - {fileID: 738934635}
