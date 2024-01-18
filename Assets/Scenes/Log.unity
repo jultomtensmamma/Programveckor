@@ -169,10 +169,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1557109214}
   sentences:
-  - 'Deer: Hello hedgehog, why do you look so miserable? What happened?'
-  - 'Hedgehog: (No reply...)'
-  - 'Deer: It''s okay, i''m a good person.'
-  - 'Hedgehog: Food....'
+  - 'Deer: I''m glad we found a shelter before the weather got worse.  '
+  - 'Deer: This hollow tree is quite big...'
+  - 'Deer: Look over there! There''s a hedgehog! '
+  - "Deer: Oh no, it looks so sad\u2026. "
+  - 'Deer: Let''s help it.'
   typingSpeed: 0.02
   continueButton: {fileID: 2107565094}
   dialogueBox: {fileID: 313063399}
@@ -210,10 +211,10 @@ RectTransform:
   - {fileID: 2107565095}
   m_Father: {fileID: 1237778949}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.6354515, y: 0.41375005}
-  m_AnchoredPosition: {x: 5.4000244, y: 6.6586}
-  m_SizeDelta: {x: -14.8439, y: -4.6634}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 178.42639, y: -110.225266}
+  m_SizeDelta: {x: 325.4686, y: 126.7872}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313063401
 MonoBehaviour:
@@ -522,7 +523,7 @@ Transform:
   m_GameObject: {fileID: 894743629}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14, y: -15.7, z: 0}
+  m_LocalPosition: {x: -57.7, y: -42.6, z: 0}
   m_LocalScale: {x: 18.1398, y: 18.1398, z: 18.1398}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -659,7 +660,7 @@ Transform:
   m_GameObject: {fileID: 1269916058}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.47499996, y: 0.23, z: -1.2907141}
+  m_LocalPosition: {x: 1.59, y: 0.3693534, z: -1.2907141}
   m_LocalScale: {x: 0.07142857, y: 0.07142857, z: 0.07142857}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -708,7 +709,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 16.653955
+  orthographic size: 19.122726
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -736,13 +737,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: hedgehog walking animation spreadsheet_0
       objectReference: {fileID: 0}
+    - target: {fileID: 5418345358293036919, guid: 0f9cfd8608799cd458981ee24f92f3e5, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418345358293036919, guid: 0f9cfd8608799cd458981ee24f92f3e5, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8248626475853255763, guid: 0f9cfd8608799cd458981ee24f92f3e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.9772034
+      value: -7.4
       objectReference: {fileID: 0}
     - target: {fileID: 8248626475853255763, guid: 0f9cfd8608799cd458981ee24f92f3e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16.61521
+      value: -42.3
       objectReference: {fileID: 0}
     - target: {fileID: 8248626475853255763, guid: 0f9cfd8608799cd458981ee24f92f3e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -895,8 +904,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.707, y: 10.968}
-  m_SizeDelta: {x: 270.1906, y: 62.518}
+  m_AnchoredPosition: {x: 0, y: 20}
+  m_SizeDelta: {x: 295.118, y: 62.518}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1557109214
 MonoBehaviour:
@@ -945,8 +954,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1147,7 +1156,7 @@ Transform:
   m_GameObject: {fileID: 1972073846}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.9940395, y: -21.776457, z: 0}
+  m_LocalPosition: {x: -28.9, y: -48.3, z: 0}
   m_LocalScale: {x: 75.404, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1188,7 +1197,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 103.3, y: -32.607}
+  m_AnchoredPosition: {x: 127, y: -47}
   m_SizeDelta: {x: 138.0573, y: 24.6321}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107565096
@@ -1349,7 +1358,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1972073850}
-  - {fileID: 1516937656}
   - {fileID: 894743636}
   - {fileID: 1237778949}
   - {fileID: 282706567}
+  - {fileID: 1516937656}
