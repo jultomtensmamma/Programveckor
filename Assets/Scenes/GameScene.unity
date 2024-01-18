@@ -216,7 +216,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 309411851}
-  - component: {fileID: 309411850}
   m_Layer: 0
   m_Name: Tester
   m_TagString: Untagged
@@ -224,19 +223,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &309411850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309411849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee4fc3136189644469a6c94f39300d21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneIndex: 0
 --- !u!4 &309411851
 Transform:
   m_ObjectHideFlags: 0
@@ -1514,6 +1500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 915766711}
   - component: {fileID: 915766710}
+  - component: {fileID: 915766712}
   m_Layer: 0
   m_Name: Log
   m_TagString: Untagged
@@ -1575,12 +1562,24 @@ Transform:
   m_GameObject: {fileID: 915766708}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 172.8, y: -21.5, z: -0.026465919}
+  m_LocalPosition: {x: 179.05, y: -18.1, z: -0.026465919}
   m_LocalScale: {x: 14, y: 29.08, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &915766712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915766708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6ed3ba20a7bf8d42afb8a796c017954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &960590189
 GameObject:
   m_ObjectHideFlags: 0
@@ -3528,6 +3527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: deer sprite walking spreadsheet_0
       objectReference: {fileID: 0}
+    - target: {fileID: 4632578097776538302, guid: d3b2dc9443f88b841a4bb9fc2113f7ed, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7574947405595370629, guid: d3b2dc9443f88b841a4bb9fc2113f7ed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.9
@@ -3538,7 +3541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7574947405595370629, guid: d3b2dc9443f88b841a4bb9fc2113f7ed, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7574947405595370629, guid: d3b2dc9443f88b841a4bb9fc2113f7ed, type: 3}
       propertyPath: m_LocalRotation.w
