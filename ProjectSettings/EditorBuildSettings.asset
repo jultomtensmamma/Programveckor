@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/JuliaTest.unity
     guid: 3558c9ff321468a4784189c8496d1016
+  - enabled: 1
+    path: Assets/Scenes/Log.unity
+    guid: 6dc586bcebfa57d44bf8ca6e47d8fea9
   m_configObjects: {}
