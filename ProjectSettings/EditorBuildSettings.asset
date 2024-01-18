@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Log.unity
     guid: 6dc586bcebfa57d44bf8ca6e47d8fea9
+  - enabled: 1
+    path: Assets/Scenes/Rainy obstacle scene.unity
+    guid: 4fc4ef498f6418c4b8d4f1e13a268ce4
+  - enabled: 1
+    path: Assets/Scenes/Log2.unity
+    guid: 605cc695afe41d04ebec877483243cf1
+  - enabled: 1
+    path: Assets/Scenes/prototyp slut.unity
+    guid: b20d708d23d29824c8f389c4c3bfa948
   m_configObjects: {}
