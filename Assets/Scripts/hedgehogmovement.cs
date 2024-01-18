@@ -10,6 +10,8 @@ public class hedgehogmovement : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Animator anim;
 
+    static bool isFollowing;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,11 @@ public class hedgehogmovement : MonoBehaviour
         {
             print("hopp");
             myRigidbody.AddForce(new Vector3(0, 5, 0), ForceMode2D.Impulse);
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            isFollowing = true;
         }
     }
 
@@ -59,7 +66,7 @@ public class hedgehogmovement : MonoBehaviour
             anim.SetBool("Iswalking", false);
             //  GetComponent<Animation>().Play("idle");
         }
-        if (direction.magnitude > 5)
+        if (direction.magnitude > 5 && isFollowing)
         {
             myRigidbody.AddForce(direction);
         }
