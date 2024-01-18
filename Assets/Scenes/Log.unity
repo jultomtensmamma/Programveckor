@@ -467,7 +467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b0d11cbb5e3dd04db564f1a8eb471b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Rainy obstacle
+  scene: Rainy obstacle scene
 --- !u!1001 &1516937656
 PrefabInstance:
   m_ObjectHideFlags: 0

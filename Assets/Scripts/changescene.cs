@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class changescene : MonoBehaviour
 {
     public string scene;
-    public void LoadGame()
+    public void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -20,8 +20,5 @@ public class changescene : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
