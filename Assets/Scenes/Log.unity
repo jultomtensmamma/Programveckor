@@ -1563,6 +1563,7 @@ MonoBehaviour:
   - "Hedgehog: (No reply\u2026)"
   - 'Deer: It''s okay, I''m a good person. '
   - 'Hedgehog: Food...'
+  - 'Deer: Alright i''ll bring you food'
   contButton: {fileID: 733430384}
   wordSpeed: 0.02
   playerIsClose: 1
