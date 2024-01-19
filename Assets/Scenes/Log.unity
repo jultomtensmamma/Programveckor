@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 279993321}
   - component: {fileID: 279993320}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Dialoguetext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -507,7 +507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &439075234
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1287,6 +1287,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f783f3e303f6e940870cf57e6455bc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 439075233}
+  dialogueText: {fileID: 279993320}
+  dialogue:
+  - 'Deer: Hello hedgehog, why do you look so miserable?  '
+  - 'Deer: What happened?... '
+  - "Hedgehog: (No reply\u2026)"
+  - 'Deer: It''s okay, I''m a good person. '
+  - 'Hedgehog: Food...'
+  wordSpeed: 0.02
+  playerIsClose: 0
 --- !u!1 &1557109212
 GameObject:
   m_ObjectHideFlags: 0
