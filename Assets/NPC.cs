@@ -10,6 +10,7 @@ public class NPC : MonoBehaviour
     public string[] dialogue;
     private int index;
 
+    public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -27,7 +28,13 @@ public class NPC : MonoBehaviour
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
             }
-        }   
+        }
+        
+        if (dialogueText.text == dialogue[index])
+        {
+            contButton.SetActive(true);
+        }
+
     }
 
     public void zeroText()
@@ -49,6 +56,8 @@ public class NPC : MonoBehaviour
 
     public void NextLine()
     {
+        contButton.SetActive(false);
+
         if(index < dialogue.Length - 1)
         {
             index++;
@@ -66,7 +75,7 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Spelaren (rådjuret)"))
+        if (other.CompareTag("Player"))
         {
             playerIsClose = true;
         }
@@ -74,7 +83,7 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Spelaren (rådjuret)"))
+        if (other.CompareTag("Player"))
         {
             playerIsClose = false;
             zeroText();
