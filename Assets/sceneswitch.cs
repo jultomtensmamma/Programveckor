@@ -1,27 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Unity.VisualScripting;
-using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Debug = UnityEngine.Debug;
 
-public class LogScript : MonoBehaviour
+public class SwitchScene : MonoBehaviour
 {
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            Teleport();
+
+            Debug.Log("Inside Trigger Zone");
+            SceneManager.LoadScene("Log2");
+
         }
     }
 
-    private void Teleport()
+    private void OnTriggerExit2D(Collider2D other)
     {
-        SceneManager.LoadScene(1);
-       
+        Debug.Log("Outside Trigger Zone");
     }
-
 }
