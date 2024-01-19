@@ -16,6 +16,6 @@ public class dscenbyte : MonoBehaviour
 
     private void Teleport()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }
