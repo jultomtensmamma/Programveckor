@@ -259,8 +259,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.3929, y: 11.886}
-  m_SizeDelta: {x: 402.0827, y: 128.35}
+  m_AnchoredPosition: {x: -0.9898, y: -4.2662}
+  m_SizeDelta: {x: 387.2765, y: 96.0455}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279993320
 MonoBehaviour:
@@ -526,8 +526,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 141, y: 50}
-  m_SizeDelta: {x: -262.9647, y: -268.3406}
+  m_AnchoredPosition: {x: 186.60855, y: 66.22672}
+  m_SizeDelta: {x: -354.1818, y: -300.7941}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &439075235
 MonoBehaviour:
@@ -737,8 +737,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 185, y: -66.335}
-  m_SizeDelta: {x: 139.3152, y: 28.0921}
+  m_AnchoredPosition: {x: 122.99, y: -46}
+  m_SizeDelta: {x: 139.3152, y: 29.6375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &733430386
 MonoBehaviour:
@@ -1563,7 +1563,7 @@ MonoBehaviour:
   - "Hedgehog: (No reply\u2026)"
   - 'Deer: It''s okay, I''m a good person. '
   - 'Hedgehog: Food...'
-  - 'Deer: Alright i''ll bring you food'
+  - 'Deer: Alright i''ll bring you food.'
   contButton: {fileID: 733430384}
   wordSpeed: 0.02
   playerIsClose: 1
