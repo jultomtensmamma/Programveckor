@@ -1490,41 +1490,6 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!1 &738934634
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 738934635}
-  m_Layer: 0
-  m_Name: FoodUI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &738934635
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 738934634}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 133.9489, y: -14.693561, z: -11.710997}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 763988651}
-  - {fileID: 1477189295}
-  - {fileID: 901800641}
-  - {fileID: 1323095487}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &758905353
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,7 +1633,7 @@ GameObject:
   - component: {fileID: 763988653}
   - component: {fileID: 763988654}
   m_Layer: 0
-  m_Name: blueberry programvecka
+  m_Name: "Bl\xE5b\xE4r"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1683,11 +1648,11 @@ Transform:
   m_GameObject: {fileID: 763988650}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.3489, y: 4.543561, z: -9.289002}
-  m_LocalScale: {x: 9.667, y: 9.222, z: 1}
+  m_LocalPosition: {x: -1.8743321, y: 0.7890384, z: -1.1576754}
+  m_LocalScale: {x: 0.53291655, y: 0.5083849, z: 0.0551274}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 738934635}
+  m_Father: {fileID: 778100018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &763988652
 SpriteRenderer:
@@ -1770,7 +1735,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -12.25, y: -2.7}
@@ -1990,10 +1955,14 @@ Transform:
   m_GameObject: {fileID: 778100011}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 159.6, y: -24.463, z: -9}
+  m_LocalPosition: {x: 159.6, y: -24.463, z: -2}
   m_LocalScale: {x: 18.1398, y: 18.1398, z: 18.1398}
   m_ConstrainProportionsScale: 1
   m_Children:
+  - {fileID: 901800641}
+  - {fileID: 1323095487}
+  - {fileID: 1477189295}
+  - {fileID: 763988651}
   - {fileID: 729085423}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2408,7 +2377,7 @@ GameObject:
   - component: {fileID: 901800643}
   - component: {fileID: 901800644}
   m_Layer: 0
-  m_Name: Mushroom1
+  m_Name: whiteMushroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2422,12 +2391,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901800640}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.38, y: 4.58, z: -9}
-  m_LocalScale: {x: 7, y: 7, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.6555371, y: 0.7910472, z: -1.1576754}
+  m_LocalScale: {x: 0.38589177, y: 0.38589177, z: 0.0551274}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 738934635}
+  m_Father: {fileID: 778100018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &901800642
 SpriteRenderer:
@@ -2510,7 +2479,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -9.39, y: -3.11}
@@ -2728,7 +2697,7 @@ Transform:
   m_GameObject: {fileID: 1053883115}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 113.99641, y: 18.138819, z: -11.421625}
+  m_LocalPosition: {x: 113.99641, y: 18.138819, z: -22}
   m_LocalScale: {x: 30, y: 33.375, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2915,7 +2884,7 @@ GameObject:
   - component: {fileID: 1323095489}
   - component: {fileID: 1323095490}
   m_Layer: 0
-  m_Name: Mushroom2
+  m_Name: redMushroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2929,12 +2898,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323095486}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.93, y: 4.64, z: -9}
-  m_LocalScale: {x: 7, y: 7, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.4653478, y: 0.7943548, z: -1.1576754}
+  m_LocalScale: {x: 0.38589177, y: 0.38589177, z: 0.0551274}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 738934635}
+  m_Father: {fileID: 778100018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1323095488
 SpriteRenderer:
@@ -3017,7 +2986,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -3.63, y: -3.13}
@@ -3133,7 +3102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b610f2e67be4d124ca9e369627cb9654, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyType: 0
+  keyType: 1
 --- !u!58 &1453428800
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3182,7 +3151,7 @@ GameObject:
   - component: {fileID: 1477189297}
   - component: {fileID: 1477189298}
   m_Layer: 0
-  m_Name: cranberry programvecka
+  m_Name: "Tranb\xE4r"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3197,11 +3166,11 @@ Transform:
   m_GameObject: {fileID: 1477189294}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.158905, y: 5.7635603, z: -9.289002}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalPosition: {x: -1.4779663, y: 0.85629374, z: -1.1576754}
+  m_LocalScale: {x: 0.551274, y: 0.551274, z: 0.0551274}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 738934635}
+  m_Father: {fileID: 778100018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1477189296
 SpriteRenderer:
@@ -3284,12 +3253,12 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.75, y: -1.81}
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.23
 --- !u!114 &1477189298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4893,4 +4862,3 @@ SceneRoots:
   - {fileID: 1953360722}
   - {fileID: 19395859}
   - {fileID: 568690044}
-  - {fileID: 738934635}
