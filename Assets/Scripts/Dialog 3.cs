@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class Dialog2 : MonoBehaviour
+public class Dialog3 : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
@@ -11,7 +11,7 @@ public class Dialog2 : MonoBehaviour
     public float typingSpeed;
     public GameObject continueButton;
     public GameObject dialogueBox;
-    
+
 
     void Start()
     {
@@ -68,4 +68,5 @@ public class Dialog2 : MonoBehaviour
         textDisplay.text = string.Empty;
     }
 }
+
 

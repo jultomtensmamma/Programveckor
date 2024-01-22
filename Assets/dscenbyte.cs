@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Debug = UnityEngine.Debug;
 
-public class LogScript : MonoBehaviour
+public class dscenbyte : MonoBehaviour
 {
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -16,8 +16,6 @@ public class LogScript : MonoBehaviour
 
     private void Teleport()
     {
-        SceneManager.LoadScene(2);
-       
+        SceneManager.LoadScene(3);
     }
-
 }

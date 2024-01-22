@@ -10,6 +10,7 @@ public class UIItemCollider : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         sr.enabled = false;
+       
 
     }
 
@@ -17,7 +18,7 @@ public class UIItemCollider : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider)
     {
 
-        if (collider.gameObject != null)
+        if (collider.gameObject.tag == "Player")
         {
             sr.enabled = true;
         }
