@@ -10,7 +10,7 @@ public class UIItemCollider : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         sr.enabled = false;
-
+       
 
     }
 
