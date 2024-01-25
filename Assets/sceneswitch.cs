@@ -5,21 +5,21 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Debug = UnityEngine.Debug;
 
-public class SwitchScene : MonoBehaviour
+public class sceneswitch : MonoBehaviour
 {
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-
-            Debug.Log("Inside Trigger Zone");
-            SceneManager.LoadScene("Log2");
-
+            Teleport();
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void Teleport()
     {
-        Debug.Log("Outside Trigger Zone");
+        SceneManager.LoadScene(4);
+
+
     }
 }

@@ -2215,7 +2215,7 @@ GameObject:
   - component: {fileID: 778100019}
   m_Layer: 3
   m_Name: deer sprite walking spreadsheet_0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3508,6 +3508,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 963353486}
+  - {fileID: 1122912978}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5998,7 +5999,7 @@ Transform:
   m_GameObject: {fileID: 1840096939}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 175.5, y: -23.7, z: 0.22999191}
+  m_LocalPosition: {x: 172, y: -23.7, z: 0.22999191}
   m_LocalScale: {x: 10.046631, y: 13.330351, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
