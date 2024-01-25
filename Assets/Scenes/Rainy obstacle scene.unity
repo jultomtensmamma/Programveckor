@@ -3355,12 +3355,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
-<<<<<<< HEAD
   m_Children:
   - {fileID: 963353486}
-=======
-  m_Children: []
->>>>>>> parent of 2050b6a (Revert "Inventory fix och basket sprite Maryam")
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5329,7 +5325,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 241219722}
   m_LocalEulerAnglesHint: {x: -0.6, y: 0.09, z: -2.461}
-<<<<<<< HEAD
 --- !u!1 &1773828480
 GameObject:
   m_ObjectHideFlags: 0
@@ -5523,8 +5518,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773828480}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 2050b6a (Revert "Inventory fix och basket sprite Maryam")
 --- !u!1 &1780398961
 GameObject:
   m_ObjectHideFlags: 0
