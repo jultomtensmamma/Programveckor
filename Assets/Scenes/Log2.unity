@@ -335,8 +335,8 @@ Transform:
   m_GameObject: {fileID: 199213265}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1769, y: -0.22867, z: -1}
-  m_LocalScale: {x: 0.4617666, y: 0.18994656, z: 0.404152}
+  m_LocalPosition: {x: -0.2706, y: -0.22867, z: -1}
+  m_LocalScale: {x: 0.55789596, y: 0.18994656, z: 0.404152}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1789659191}
@@ -653,8 +653,8 @@ Transform:
   m_GameObject: {fileID: 500489591}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.2068, y: -35.3, z: 0}
-  m_LocalScale: {x: 17.707264, y: 19.052267, z: 19.052267}
+  m_LocalPosition: {x: -15.8302, y: -35.3, z: 0}
+  m_LocalScale: {x: 21.350182, y: 19.052267, z: 19.052267}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -971,7 +971,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1015762209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2316,7 +2316,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1642946853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2850,8 +2850,8 @@ Transform:
   m_GameObject: {fileID: 1774428212}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.3458, y: -48.3, z: -1}
-  m_LocalScale: {x: 125.65172, y: 1, z: 1}
+  m_LocalPosition: {x: -10.61, y: -52.5, z: -1}
+  m_LocalScale: {x: 140.61684, y: 8.8887, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2881,7 +2881,7 @@ Transform:
   m_GameObject: {fileID: 1789659190}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2910,7 +2910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1826656879
 MonoBehaviour:
   m_ObjectHideFlags: 0
