@@ -335,8 +335,8 @@ Transform:
   m_GameObject: {fileID: 199213265}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2706, y: -0.22867, z: -1}
-  m_LocalScale: {x: 0.55789596, y: 0.18994656, z: 0.404152}
+  m_LocalPosition: {x: -0.66203, y: -0.239, z: -1}
+  m_LocalScale: {x: 0.5102918, y: 0.18994656, z: 0.404152}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1789659191}
@@ -653,7 +653,7 @@ Transform:
   m_GameObject: {fileID: 500489591}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.8302, y: -35.3, z: 0}
+  m_LocalPosition: {x: -15.8302, y: -35.5, z: 0}
   m_LocalScale: {x: 21.350182, y: 19.052267, z: 19.052267}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1591,7 +1591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8248626475853255763, guid: 0f9cfd8608799cd458981ee24f92f3e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -42.96
+      value: -43.4
       objectReference: {fileID: 0}
     - target: {fileID: 8248626475853255763, guid: 0f9cfd8608799cd458981ee24f92f3e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1822,7 +1822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0928848a740cac84b8143bc35f2c11d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  variable: {fileID: 0}
+  Objectvalue: 1
 --- !u!1 &1457469822
 GameObject:
   m_ObjectHideFlags: 0
@@ -2406,12 +2406,12 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -108.95513, y: -18.737831}
-  - {x: -106.78599, y: -18.737831}
-  - {x: -106.85617, y: -5.580311}
+  - {x: -111.355736, y: -24.07249}
+  - {x: -111.58718, y: -19.538029}
+  - {x: -111.790726, y: -5.4469414}
   - {x: -101.32197, y: -5.5345306}
-  - {x: -47.30575, y: -5.040489}
-  - {x: -47.291683, y: -19.23685}
+  - {x: -39.303764, y: -5.707321}
+  - {x: -39.156334, y: -21.103981}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
