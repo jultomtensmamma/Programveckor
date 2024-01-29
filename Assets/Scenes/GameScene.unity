@@ -3027,6 +3027,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footstepsound: {fileID: 1832152486}
+--- !u!114 &1832152488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832152478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ccc32bfd98c7a84694af7db61174c61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepsound: {fileID: 0}
 --- !u!1 &1914993028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3640,6 +3653,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4632578097776538302, guid: d3b2dc9443f88b841a4bb9fc2113f7ed, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1832152487}
+    - targetCorrespondingSourceObject: {fileID: 4632578097776538302, guid: d3b2dc9443f88b841a4bb9fc2113f7ed, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1832152488}
   m_SourcePrefab: {fileID: 100100000, guid: d3b2dc9443f88b841a4bb9fc2113f7ed, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
