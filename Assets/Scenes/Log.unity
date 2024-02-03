@@ -2108,7 +2108,7 @@ MonoBehaviour:
   - 'Deer: Hello hedgehog, why do you look so miserable?  '
   - 'Deer: What happened?... '
   - "Hedgehog: (No reply\u2026)"
-  - 'Deer: It''s okay, I''m a good person. '
+  - 'Deer: It''s okay, I''m a good deer. '
   - 'Hedgehog: Food...'
   - 'Deer: Alright i''ll bring you food.'
   contButton: {fileID: 733430384}
