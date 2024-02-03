@@ -1059,6 +1059,8 @@ GameObject:
   - component: {fileID: 1057761596}
   - component: {fileID: 1057761595}
   - component: {fileID: 1057761594}
+  - component: {fileID: 1057761601}
+  - component: {fileID: 1057761602}
   m_Layer: 3
   m_Name: Spelaren
   m_TagString: Player
@@ -1252,6 +1254,115 @@ Transform:
   - {fileID: 502763824}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1057761601
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057761593}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d8e608cc2ffd20a4580c09b5af4a4902, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1057761602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057761593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc94f41e1a879ee429dc6be29ab01b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WoodWalkingSound: {fileID: 0}
 --- !u!1 &1159191843
 GameObject:
   m_ObjectHideFlags: 0
@@ -1665,12 +1776,11 @@ MonoBehaviour:
   dialoguePanel: {fileID: 925257054}
   dialogueText: {fileID: 1514696876}
   dialogue:
-  - 'Deer: Hello hedgehog, why do you look so miserable?  '
-  - 'Deer: What happened?... '
-  - "Hedgehog: (No reply\u2026)"
-  - 'Deer: It''s okay, I''m a good person. '
-  - 'Hedgehog: Food...'
-  - 'Deer: Alright i''ll bring you food.'
+  - 'Deer: There u go hedgehog eat a lot.'
+  - 'Hedgehog: Thank you so much. How can I pay you back for your kindness?'
+  - 'Deer: There''s a hunter! '
+  - "Hedgehog: I will help you since you helped me\u2026"
+  - "Hedgehog: Follow me\u2026"
   contButton: {fileID: 1767161992}
   wordSpeed: 0.02
   playerIsClose: 1
