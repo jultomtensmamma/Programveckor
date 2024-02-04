@@ -6,6 +6,7 @@ public class UIItemCollider : MonoBehaviour
 {
     // Start is called before the first frame update
     private SpriteRenderer sr;
+    public AudioSource PickUpSound;
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -21,7 +22,13 @@ public class UIItemCollider : MonoBehaviour
         if (collider.gameObject.tag == "Player")
         {
             sr.enabled = true;
+            PickUpSound.enabled = true;
+        }
+        else
+        {
+            PickUpSound.enabled = false;
         }
 
     }
+   
 }
