@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class door : MonoBehaviour
 {
+    // Mira sköld
+    // detta script används för att öppna och stänga dörrar
     public GameObject opendoor;
     public GameObject closeddoor;
     // Start is called before the first frame update
