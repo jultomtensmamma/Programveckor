@@ -55,6 +55,8 @@ public class Dialog : MonoBehaviour
             rain.SetActive(true);
         }
         continueButton.SetActive(false);
+
+        // regn funktion och closedialog
         
         if(index < sentences.Length - 1)
         {
