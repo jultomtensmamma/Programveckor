@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class changescene : MonoBehaviour
 {
+    //Mira Sköld
     public string scene;
     public void Update()
     {

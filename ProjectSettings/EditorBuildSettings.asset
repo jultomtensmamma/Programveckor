@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Log2.unity
     guid: 605cc695afe41d04ebec877483243cf1
+  - enabled: 1
+    path: Assets/Scenes/chase scene.unity
+    guid: 90d5fb51e44a68a48a0cad5610ece7dc
   m_configObjects: {}

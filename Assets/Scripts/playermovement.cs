@@ -37,13 +37,13 @@ public class playermovement : MonoBehaviour
 
         if (horizontalInput > 0)
         {
-            myRigidbody.AddForce(new Vector2(7, 0));
+            myRigidbody.AddForce(new Vector2(10, 0));
             // Flip the sprite to face right
             spriteRenderer.flipX = false;
         }
         else if (horizontalInput < 0)
         {
-            myRigidbody.AddForce(new Vector2(-7, 0));
+            myRigidbody.AddForce(new Vector2(-10, 0));
             // Flip the sprite to face left
             spriteRenderer.flipX = true;
         }

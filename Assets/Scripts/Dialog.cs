@@ -12,6 +12,7 @@ public class Dialog : MonoBehaviour
     public GameObject continueButton;
     public GameObject dialogueBox;
     public GameObject rain;
+    public AudioSource TalkingSound;
 
     void Start()
     {
@@ -24,6 +25,12 @@ public class Dialog : MonoBehaviour
         if (textDisplay.text == sentences[index]) 
         {
             continueButton.SetActive(true);
+            TalkingSound.enabled = true;
+        }
+       else
+        {
+            TalkingSound.enabled = false;
+
         }
     }
 

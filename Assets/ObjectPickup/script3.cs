@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class script3 : MonoBehaviour
 {//objectpickup
+    //Mira Sköld
     
     public int Objectvalue = 1;
     private void OnTriggerEnter2D(Collider2D other)

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7de08b88fc6844b4f91e44e4c556858e
+guid: e1ac8141cc4a320428c886ff00e5d61a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,20 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,30 +119,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walking animation deer 2.0_0
+      name: people animation-Sheet_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 158
-        width: 53
-        height: 43
+        x: 47
+        y: 53
+        width: 179
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a76fd0b3fccfe442b8e2c3bb0494418
-      internalID: -242878174
+      spriteID: 5c171fa73199faf4683cfb58b98d196e
+      internalID: -2040063129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking animation deer 2.0_1
+      name: people animation-Sheet_1
       rect:
         serializedVersion: 2
-        x: 177
-        y: 158
-        width: 52
-        height: 43
+        x: 445
+        y: 53
+        width: 179
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa37db1bc7069474ca38a6f7bade746f
-      internalID: 1970171032
+      spriteID: 766661e8d34ad7f4d8d7e825533902de
+      internalID: -1785298990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking animation deer 2.0_2
+      name: people animation-Sheet_2
       rect:
         serializedVersion: 2
-        x: 306
-        y: 158
-        width: 52
-        height: 42
+        x: 847
+        y: 53
+        width: 175
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8df08dce1c3ec0b4d9edb9c8fe1a7f11
-      internalID: -526258825
+      spriteID: 9c93e5550cf15364ca891723f3f06a3c
+      internalID: -2114927226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking animation deer 2.0_3
+      name: people animation-Sheet_3
       rect:
         serializedVersion: 2
-        x: 45
-        y: 82
-        width: 52
-        height: 41
+        x: 1248
+        y: 53
+        width: 176
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebeae91ffc23e914197c0936f087bfe2
-      internalID: -1879096197
+      spriteID: 0c0be0f72a58ec446a6024ca6f451d2d
+      internalID: 70884186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking animation deer 2.0_4
+      name: people animation-Sheet_4
       rect:
         serializedVersion: 2
-        x: 174
-        y: 82
-        width: 53
-        height: 41
+        x: 1646
+        y: 53
+        width: 179
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdddbf03a71afcb499f3cda22424b8c7
-      internalID: 182902233
+      spriteID: cdadc5e2aa84e7048ab64741dc4ff8ae
+      internalID: -1518020637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking animation deer 2.0_5
+      name: people animation-Sheet_5
       rect:
         serializedVersion: 2
-        x: 305
-        y: 82
-        width: 51
-        height: 42
+        x: 2048
+        y: 53
+        width: 176
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71f69a6f0ae0dbb45b165ab5097d7243
-      internalID: -739127326
+      spriteID: a1938603ee17a1149ad7f3ed1f084475
+      internalID: -2118900848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking animation deer 2.0_6
+      name: people animation-Sheet_6
       rect:
         serializedVersion: 2
-        x: 45
-        y: 6
-        width: 52
-        height: 43
+        x: 2446
+        y: 53
+        width: 179
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f865799672b0ae49af9842cbd7a13a9
-      internalID: 1952879592
+      spriteID: d3980c5d8f37cae44bfc45e89121bee4
+      internalID: 1436280732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking animation deer 2.0_7
+      name: people animation-Sheet_7
       rect:
         serializedVersion: 2
-        x: 176
-        y: 6
-        width: 52
-        height: 43
+        x: 2848
+        y: 53
+        width: 175
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b32152b3886530b43bf7be5b3003d35d
-      internalID: 1522901595
+      spriteID: a335578fb07ce7d49bfcf8802500cb1d
+      internalID: -588600386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking animation deer 2.0_8
+      name: people animation-Sheet_8
       rect:
         serializedVersion: 2
-        x: 306
-        y: 6
-        width: 52
-        height: 43
+        x: 3246
+        y: 53
+        width: 179
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,8 +305,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95474c1005887524f9ce1302a3e13b16
-      internalID: 1545547724
+      spriteID: 329828f61b552b24990b4855ac514339
+      internalID: -546600719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: people animation-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 53
+        width: 176
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320f045e74ad9544bacd675b9273b57a
+      internalID: 500444678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: people animation-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4046
+        y: 53
+        width: 179
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f0710a5710864479aa0b371a4ff8fe
+      internalID: -1945882169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: people animation-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 53
+        width: 176
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f385e712f54ef4f48889ad6370fa3f1d
+      internalID: -57469213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: people animation-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4846
+        y: 53
+        width: 178
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3738ed8ae7493a74e8b086b811451881
+      internalID: 1204856014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: people animation-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 5247
+        y: 53
+        width: 179
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086c250cb00ea89428f26e8710a6d8ac
+      internalID: -1265028568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: people animation-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 5646
+        y: 53
+        width: 178
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e52e9e85c671948aceb68e5b6dcc2a
+      internalID: -4081723
       vertices: []
       indices: 
       edges: []
@@ -322,15 +448,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      walking animation deer 2.0_0: -242878174
-      walking animation deer 2.0_1: 1970171032
-      walking animation deer 2.0_2: -526258825
-      walking animation deer 2.0_3: -1879096197
-      walking animation deer 2.0_4: 182902233
-      walking animation deer 2.0_5: -739127326
-      walking animation deer 2.0_6: 1952879592
-      walking animation deer 2.0_7: 1522901595
-      walking animation deer 2.0_8: 1545547724
+      people animation-Sheet_0: -2040063129
+      people animation-Sheet_1: -1785298990
+      people animation-Sheet_10: -1945882169
+      people animation-Sheet_11: -57469213
+      people animation-Sheet_12: 1204856014
+      people animation-Sheet_13: -1265028568
+      people animation-Sheet_14: -4081723
+      people animation-Sheet_2: -2114927226
+      people animation-Sheet_3: 70884186
+      people animation-Sheet_4: -1518020637
+      people animation-Sheet_5: -2118900848
+      people animation-Sheet_6: 1436280732
+      people animation-Sheet_7: -588600386
+      people animation-Sheet_8: -546600719
+      people animation-Sheet_9: 500444678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

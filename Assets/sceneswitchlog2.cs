@@ -1,12 +1,11 @@
-
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Debug = UnityEngine.Debug;
 
-public class LogScript : MonoBehaviour
+public class sceneswitchlog2 : MonoBehaviour
 {
-    // Mira Sköld
-    // Scenbyte
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -17,8 +16,6 @@ public class LogScript : MonoBehaviour
 
     private void Teleport()
     {
-        SceneManager.LoadScene(2);
-       
+        SceneManager.LoadScene(5);
     }
-
 }
