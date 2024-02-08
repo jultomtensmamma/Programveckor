@@ -16,5 +16,6 @@ public class sceneswitchlog2 : MonoBehaviour
 
     private void Teleport()
     {
-        SceneManager.LoadScene();
+        SceneManager.LoadScene(5);
     }
+}
