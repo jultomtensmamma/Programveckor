@@ -11,7 +11,7 @@ public class Dialog3 : MonoBehaviour
     public float typingSpeed;
     public GameObject continueButton;
     public GameObject dialogueBox;
-
+    public AudioSource TalkingSoud;
 
     void Start()
     {
@@ -24,6 +24,11 @@ public class Dialog3 : MonoBehaviour
         if (textDisplay.text == sentences[index])
         {
             continueButton.SetActive(true);
+            TalkingSoud.enabled = true;
+        }
+        else
+        {
+            TalkingSoud.enabled = false;
         }
     }
 
