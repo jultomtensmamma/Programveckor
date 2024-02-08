@@ -6,12 +6,13 @@ using UnityEngine;
 
 public class KeyHolder : MonoBehaviour
 {
+    public AudioSource pickUpSound;
     public event EventHandler OnKeysChanged;
     private List<Key.KeyType> keyList;
     private void Awake()
     {
         keyList = new List<Key.KeyType>();
-
+       
     }
     public List<Key.KeyType> GetKeyList()
     {
@@ -45,8 +46,9 @@ public class KeyHolder : MonoBehaviour
         {
             AddKey(key.GetKeyType());
             Destroy(key.gameObject);
-           
+            
         }
+       
         KeyDoor keyDoor = collider.GetComponent<KeyDoor>();
         if (keyDoor != null)
         {
